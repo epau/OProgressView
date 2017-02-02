@@ -60,7 +60,7 @@ import UIKit
     }
   }
 
-  /// The width of the track around the circle.
+  /// The width of the track around the ellipse.
   @IBInspectable open var trackWidth: CGFloat = 10 {
     didSet {
       setNeedsDisplay()

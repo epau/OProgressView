@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var oProgressView: OProgressView!
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+
+    let frame = CGRect(x: 40, y: 40, width: 280, height: 280)
+    oProgressView = OProgressView(frame: frame)
+    view.addSubview(oProgressView)
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    let progress = Progress(totalUnitCount: <#T##Int64#>)
+    oProgressView.setProgress(0.80, animated: true)
   }
-
-
 }
 
