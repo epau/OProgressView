@@ -11,16 +11,18 @@ You use the OProgressView class to show an ellipse to depict the progress of a t
 
 ### Carthage
 To install using [Carthage](), add the following to your project's Cartfile:
-`github "epau/OProgressView"`
+```
+github "epau/OProgressView"
+```
 
 ### Manually
 Download and drag into your project the following files:
-`
+```
 OProgressView.swift
 CGPoint+PointOnEllipse.swift
 FloatingPoint+DegreesToRadians.swift
 UIBezierPath+Percentage.swift
-`
+```
 
 ## Requirements
 
@@ -44,5 +46,6 @@ Made by [epau](https://github.com/epau) with ❤️
 Influenced by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)
 
 ## License
+
 Licensed under the MIT license.
 See [LICENSE](https://github.com/epau/OProgressView/blob/master/LICENSE) for details
