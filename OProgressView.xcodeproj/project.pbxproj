@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1604AD1E43A822005489A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604AC1E43A822005489A6 /* AppDelegate.swift */; };
+		EF1604AF1E43A822005489A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604AE1E43A822005489A6 /* ViewController.swift */; };
+		EF1604B21E43A822005489A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1604B01E43A822005489A6 /* Main.storyboard */; };
+		EF1604B41E43A822005489A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1604B31E43A822005489A6 /* Assets.xcassets */; };
+		EF1604B71E43A822005489A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1604B51E43A822005489A6 /* LaunchScreen.storyboard */; };
+		EF1604BF1E43A860005489A6 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604BE1E43A860005489A6 /* OProgressView.swift */; };
+		EF1604C11E43A8D7005489A6 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C01E43A8D7005489A6 /* UIBezierPath+Percentage.swift */; };
+		EF1604C31E43A924005489A6 /* FloatingPoint+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C21E43A924005489A6 /* FloatingPoint+DegreesToRadians.swift */; };
+		EF1604C51E43A94A005489A6 /* CGPoint+PointOnEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C41E43A94A005489A6 /* CGPoint+PointOnEllipse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1604A91E43A822005489A6 /* OProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1604AC1E43A822005489A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1604AE1E43A822005489A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1604B11E43A822005489A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1604B31E43A822005489A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1604B61E43A822005489A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1604B81E43A822005489A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1604BE1E43A860005489A6 /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
+		EF1604C01E43A8D7005489A6 /* UIBezierPath+Percentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Percentage.swift"; sourceTree = "<group>"; };
+		EF1604C21E43A924005489A6 /* FloatingPoint+DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+DegreesToRadians.swift"; sourceTree = "<group>"; };
+		EF1604C41E43A94A005489A6 /* CGPoint+PointOnEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+PointOnEllipse.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1604A61E43A822005489A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1604A01E43A822005489A6 = {
+			isa = PBXGroup;
+			children = (
+				EF1604AB1E43A822005489A6 /* OProgressView */,
+				EF1604AA1E43A822005489A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1604AA1E43A822005489A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1604A91E43A822005489A6 /* OProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1604AB1E43A822005489A6 /* OProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EF1604B81E43A822005489A6 /* Info.plist */,
+				EF1604AC1E43A822005489A6 /* AppDelegate.swift */,
+				EF1604C41E43A94A005489A6 /* CGPoint+PointOnEllipse.swift */,
+				EF1604C21E43A924005489A6 /* FloatingPoint+DegreesToRadians.swift */,
+				EF1604BE1E43A860005489A6 /* OProgressView.swift */,
+				EF1604C01E43A8D7005489A6 /* UIBezierPath+Percentage.swift */,
+				EF1604AE1E43A822005489A6 /* ViewController.swift */,
+				EF1604B31E43A822005489A6 /* Assets.xcassets */,
+				EF1604B51E43A822005489A6 /* LaunchScreen.storyboard */,
+				EF1604B01E43A822005489A6 /* Main.storyboard */,
+			);
+			path = OProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1604A81E43A822005489A6 /* OProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressView" */;
+			buildPhases = (
+				EF1604A51E43A822005489A6 /* Sources */,
+				EF1604A61E43A822005489A6 /* Frameworks */,
+				EF1604A71E43A822005489A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OProgressView;
+			productName = OProgressView;
+			productReference = EF1604A91E43A822005489A6 /* OProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1604A11E43A822005489A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = epau;
+				TargetAttributes = {
+					EF1604A81E43A822005489A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4P9PMZ46U7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF1604A41E43A822005489A6 /* Build configuration list for PBXProject "OProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1604A01E43A822005489A6;
+			productRefGroup = EF1604AA1E43A822005489A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1604A81E43A822005489A6 /* OProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1604A71E43A822005489A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1604B71E43A822005489A6 /* LaunchScreen.storyboard in Resources */,
+				EF1604B41E43A822005489A6 /* Assets.xcassets in Resources */,
+				EF1604B21E43A822005489A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1604A51E43A822005489A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1604AF1E43A822005489A6 /* ViewController.swift in Sources */,
+				EF1604C11E43A8D7005489A6 /* UIBezierPath+Percentage.swift in Sources */,
+				EF1604AD1E43A822005489A6 /* AppDelegate.swift in Sources */,
+				EF1604C31E43A924005489A6 /* FloatingPoint+DegreesToRadians.swift in Sources */,
+				EF1604BF1E43A860005489A6 /* OProgressView.swift in Sources */,
+				EF1604C51E43A94A005489A6 /* CGPoint+PointOnEllipse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF1604B01E43A822005489A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1604B11E43A822005489A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1604B51E43A822005489A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1604B61E43A822005489A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1604B91E43A822005489A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1604BA1E43A822005489A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1604BC1E43A822005489A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P9PMZ46U7;
+				INFOPLIST_FILE = OProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF1604BD1E43A822005489A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P9PMZ46U7;
+				INFOPLIST_FILE = OProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1604A41E43A822005489A6 /* Build configuration list for PBXProject "OProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1604B91E43A822005489A6 /* Debug */,
+				EF1604BA1E43A822005489A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1604BC1E43A822005489A6 /* Debug */,
+				EF1604BD1E43A822005489A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1604A11E43A822005489A6 /* Project object */;
+}
