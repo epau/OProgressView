@@ -7,6 +7,11 @@
 
 You use the OProgressView class to show an ellipse to depict the progress of a task over time.
 
+- [x] Supports any size ellipse, not just circles.
+- [x] Provides a label that autopopulates with the current progress value (as a percent).
+- [x] Set progress manually or by observing a Progress instance.
+- [x] Available in Interface Builder.
+
 ## Installation
 
 ### Carthage
