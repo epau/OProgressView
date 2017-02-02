@@ -12,6 +12,8 @@ You use the OProgressView class to show an ellipse to depict the progress of a t
 - [x] Set progress manually or by observing a Progress instance.
 - [x] Available in Interface Builder.
 
+<div style='position:relative;padding-bottom:95%'><iframe src='https://gfycat.com/ifr/ObviousUnfortunateHornet' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
 ## Installation
 
 ### Carthage

@@ -17,13 +17,18 @@ class ViewController: UIViewController {
 
     let frame = CGRect(x: 40, y: 40, width: 280, height: 280)
     oProgressView = OProgressView(frame: frame)
+    oProgressView.progressLabel.font = UIFont.systemFont(ofSize: 32)
     view.addSubview(oProgressView)
   }
 
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    let progress = Progress(totalUnitCount: <#T##Int64#>)
-    oProgressView.setProgress(0.80, animated: true)
+
+    oProgressView.setProgress(0, animated: false)
+  }
+
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    self.oProgressView.setProgress(0.80, animated: true)
   }
 }
 
