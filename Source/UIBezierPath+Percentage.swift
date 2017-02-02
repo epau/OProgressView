@@ -16,7 +16,7 @@ extension UIBezierPath {
     let xRadius = rect.width / 2
     let yRadius = rect.height / 2
 
-    let startDegrees: CGFloat = 90 // 0 is the right most point on an oval, so set to 90 to start at the top.
+    let startDegrees: CGFloat = 90 // 0 is the right most point on the oval, so set to 90 to start at the top.
     let startAngle = startDegrees.degreesToRadians
 
     let endDegrees = startDegrees - percentage * 360 // subtract to move clockwise

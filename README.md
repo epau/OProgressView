@@ -26,8 +26,8 @@ UIBezierPath+Percentage.swift
 
 ## Requirements
 
-Xcode 8
-Swift 3.0
+Xcode 8  
+Swift 3.0  
 iOS 8.0 +
 
 ## Usage
@@ -47,5 +47,4 @@ Influenced by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-Circle
 
 ## License
 
-Licensed under the MIT license.
-See [LICENSE](https://github.com/epau/OProgressView/blob/master/LICENSE) for details
+Licensed under the MIT license. See [LICENSE](https://github.com/epau/OProgressView/blob/master/LICENSE) for details
