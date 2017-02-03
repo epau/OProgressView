@@ -17,6 +17,11 @@
 		EF1604CD1E43DBCF005489A6 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C91E43DBCF005489A6 /* OProgressView.swift */; };
 		EF1604CE1E43DBCF005489A6 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */; };
 		EFB04E221E43E88B00AF9930 /* OProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB04E211E43E88B00AF9930 /* OProgressViewTests.swift */; };
+		EFB04E321E44E4DC00AF9930 /* OProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB04E301E44E4DC00AF9930 /* OProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB04E361E44E4F300AF9930 /* CGPoint+PointOnEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C71E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift */; };
+		EFB04E371E44E4F300AF9930 /* Int+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */; };
+		EFB04E381E44E4F300AF9930 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C91E43DBCF005489A6 /* OProgressView.swift */; };
+		EFB04E391E44E4F300AF9930 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF1604A91E43A822005489A6 /* OProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1604A91E43A822005489A6 /* OProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1604AC1E43A822005489A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1604AE1E43A822005489A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF1604B11E43A822005489A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		EFB04E1F1E43E88B00AF9930 /* OProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB04E211E43E88B00AF9930 /* OProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OProgressViewTests.swift; sourceTree = "<group>"; };
 		EFB04E231E43E88B00AF9930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB04E2E1E44E4DC00AF9930 /* OProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB04E301E44E4DC00AF9930 /* OProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OProgressView.h; sourceTree = "<group>"; };
+		EFB04E311E44E4DC00AF9930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFB04E2A1E44E4DC00AF9930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +84,7 @@
 			children = (
 				EF1604AB1E43A822005489A6 /* OProgressView */,
 				EFB04E201E43E88B00AF9930 /* OProgressViewTests */,
+				EFB04E2F1E44E4DC00AF9930 /* OProgressView */,
 				EF1604AA1E43A822005489A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,8 +92,9 @@
 		EF1604AA1E43A822005489A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF1604A91E43A822005489A6 /* OProgressView.app */,
+				EF1604A91E43A822005489A6 /* OProgressViewDemo.app */,
 				EFB04E1F1E43E88B00AF9930 /* OProgressViewTests.xctest */,
+				EFB04E2E1E44E4DC00AF9930 /* OProgressView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,12 +134,32 @@
 			path = OProgressViewTests;
 			sourceTree = "<group>";
 		};
+		EFB04E2F1E44E4DC00AF9930 /* OProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EFB04E301E44E4DC00AF9930 /* OProgressView.h */,
+				EFB04E311E44E4DC00AF9930 /* Info.plist */,
+			);
+			path = OProgressView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EFB04E2B1E44E4DC00AF9930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB04E321E44E4DC00AF9930 /* OProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EF1604A81E43A822005489A6 /* OProgressView */ = {
+		EF1604A81E43A822005489A6 /* OProgressViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressView" */;
+			buildConfigurationList = EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressViewDemo" */;
 			buildPhases = (
 				EF1604A51E43A822005489A6 /* Sources */,
 				EF1604A61E43A822005489A6 /* Frameworks */,
@@ -132,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = OProgressView;
+			name = OProgressViewDemo;
 			productName = OProgressView;
-			productReference = EF1604A91E43A822005489A6 /* OProgressView.app */;
+			productReference = EF1604A91E43A822005489A6 /* OProgressViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EFB04E1E1E43E88B00AF9930 /* OProgressViewTests */ = {
@@ -154,6 +191,24 @@
 			productName = OProgressViewTests;
 			productReference = EFB04E1F1E43E88B00AF9930 /* OProgressViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB04E2D1E44E4DC00AF9930 /* OProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB04E331E44E4DC00AF9930 /* Build configuration list for PBXNativeTarget "OProgressView" */;
+			buildPhases = (
+				EFB04E291E44E4DC00AF9930 /* Sources */,
+				EFB04E2A1E44E4DC00AF9930 /* Frameworks */,
+				EFB04E2B1E44E4DC00AF9930 /* Headers */,
+				EFB04E2C1E44E4DC00AF9930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OProgressView;
+			productName = OProgressView;
+			productReference = EFB04E2E1E44E4DC00AF9930 /* OProgressView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,6 +231,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = EF1604A81E43A822005489A6;
 					};
+					EFB04E2D1E44E4DC00AF9930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4P9PMZ46U7;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EF1604A41E43A822005489A6 /* Build configuration list for PBXProject "OProgressView" */;
@@ -191,8 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF1604A81E43A822005489A6 /* OProgressView */,
+				EF1604A81E43A822005489A6 /* OProgressViewDemo */,
 				EFB04E1E1E43E88B00AF9930 /* OProgressViewTests */,
+				EFB04E2D1E44E4DC00AF9930 /* OProgressView */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +270,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFB04E1D1E43E88B00AF9930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB04E2C1E44E4DC00AF9930 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,12 +307,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFB04E291E44E4DC00AF9930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB04E361E44E4F300AF9930 /* CGPoint+PointOnEllipse.swift in Sources */,
+				EFB04E371E44E4F300AF9930 /* Int+DegreesToRadians.swift in Sources */,
+				EFB04E381E44E4F300AF9930 /* OProgressView.swift in Sources */,
+				EFB04E391E44E4F300AF9930 /* UIBezierPath+Percentage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		EFB04E251E43E88B00AF9930 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF1604A81E43A822005489A6 /* OProgressView */;
+			target = EF1604A81E43A822005489A6 /* OProgressViewDemo */;
 			targetProxy = EFB04E241E43E88B00AF9930 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,6 +501,50 @@
 			};
 			name = Release;
 		};
+		EFB04E341E44E4DC00AF9930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4P9PMZ46U7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OProgressView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFB04E351E44E4DC00AF9930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4P9PMZ46U7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OProgressView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressView" */ = {
+		EF1604BB1E43A822005489A6 /* Build configuration list for PBXNativeTarget "OProgressViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF1604BC1E43A822005489A6 /* Debug */,
@@ -448,6 +571,14 @@
 			buildConfigurations = (
 				EFB04E261E43E88B00AF9930 /* Debug */,
 				EFB04E271E43E88B00AF9930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB04E331E44E4DC00AF9930 /* Build configuration list for PBXNativeTarget "OProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB04E341E44E4DC00AF9930 /* Debug */,
+				EFB04E351E44E4DC00AF9930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
