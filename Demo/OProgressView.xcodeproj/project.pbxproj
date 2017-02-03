@@ -22,6 +22,9 @@
 		EFB04E371E44E4F300AF9930 /* Int+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */; };
 		EFB04E381E44E4F300AF9930 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C91E43DBCF005489A6 /* OProgressView.swift */; };
 		EFB04E391E44E4F300AF9930 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */; };
+		EFB04E3A1E45168800AF9930 /* CGPoint+PointOnEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C71E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift */; };
+		EFB04E3B1E45168800AF9930 /* Int+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */; };
+		EFB04E3C1E45168800AF9930 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -303,6 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB04E3A1E45168800AF9930 /* CGPoint+PointOnEllipse.swift in Sources */,
+				EFB04E3B1E45168800AF9930 /* Int+DegreesToRadians.swift in Sources */,
+				EFB04E3C1E45168800AF9930 /* UIBezierPath+Percentage.swift in Sources */,
 				EFB04E221E43E88B00AF9930 /* OProgressViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OProgressView.app/OProgressView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OProgressViewDemo.app/OProgressViewDemo";
 			};
 			name = Debug;
 		};
@@ -497,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.epau.OProgressViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OProgressView.app/OProgressView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OProgressViewDemo.app/OProgressViewDemo";
 			};
 			name = Release;
 		};
