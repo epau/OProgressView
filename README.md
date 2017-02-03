@@ -12,7 +12,7 @@ You use the OProgressView class to show an ellipse to depict the progress of a t
 - [x] Set progress manually or by observing a Progress instance.
 - [x] Available in Interface Builder.
 
-<iframe src='https://gfycat.com/ifr/ObviousUnfortunateHornet' frameborder='0' scrolling='no' width='640' height='602' allowfullscreen></iframe>
+![Progress Animation](http://i.giphy.com/UztBbbFqMkRKE.gif)
 
 ## Installation
 
