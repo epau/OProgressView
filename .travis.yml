@@ -1,4 +1,5 @@
 osx_image: xcode8.2
 language: objective-c
-xcode_project: Demo/OProgressView.xcodeproj
-xcode_scheme: OProgressViewTests
+
+script:
+- xcodebuild clean build -project Demo/OProgressView.xcodeproj -scheme "OProgressViewTests" -sdk iphonesimulator
