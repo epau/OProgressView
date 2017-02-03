@@ -1,6 +1,7 @@
 # OProgressView
 
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![travis](https://travis-ci.org/epau/OProgressView.svg?branch=master)](https://travis-ci.org/epau/OProgressView/builds#)
 [![codebeat badge](https://codebeat.co/badges/2644ee6c-ae84-47a4-a5e1-e5c61470b0cd)](https://codebeat.co/projects/github-com-epau-oprogressview)
 [![swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](https://github.com/epau/OProgressView)

@@ -1,4 +1,4 @@
 osx_image: xcode8.2
 language: objective-c
 xcode_project: Demo/OProgressView.xcodeproj
-xcode_scheme: OProgressView
+xcode_scheme: OProgressViewTests
