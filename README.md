@@ -1,9 +1,10 @@
 # OProgressView
 
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![codebeat badge](https://codebeat.co/badges/2644ee6c-ae84-47a4-a5e1-e5c61470b0cd)](https://codebeat.co/projects/github-com-epau-oprogressview)
 [![swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](https://github.com/epau/OProgressView)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/epau/OProgressView)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/epau/OProgressView)
 
 You use the OProgressView class to show an ellipse to depict the progress of a task over time.
 
@@ -12,7 +13,7 @@ You use the OProgressView class to show an ellipse to depict the progress of a t
 - [x] Set progress manually or by observing a Progress instance.
 - [x] Available in Interface Builder.
 
-<div style='position:relative;padding-bottom:95%'><iframe src='https://gfycat.com/ifr/ObviousUnfortunateHornet' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+![Progress Animation](http://i.giphy.com/UztBbbFqMkRKE.gif)
 
 ## Installation
 
@@ -93,7 +94,7 @@ var centerBackgroundColor: UIColor?
 Made by [epau](https://github.com/epau) with ❤️
 
 ## Credits
-Influenced by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)
+Inspired by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)
 
 ## License
 
