@@ -13,7 +13,7 @@
 		EF1604B41E43A822005489A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1604B31E43A822005489A6 /* Assets.xcassets */; };
 		EF1604B71E43A822005489A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1604B51E43A822005489A6 /* LaunchScreen.storyboard */; };
 		EF1604CB1E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C71E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift */; };
-		EF1604CC1E43DBCF005489A6 /* FloatingPoint+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C81E43DBCF005489A6 /* FloatingPoint+DegreesToRadians.swift */; };
+		EF1604CC1E43DBCF005489A6 /* Int+DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */; };
 		EF1604CD1E43DBCF005489A6 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604C91E43DBCF005489A6 /* OProgressView.swift */; };
 		EF1604CE1E43DBCF005489A6 /* UIBezierPath+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */; };
 		EFB04E221E43E88B00AF9930 /* OProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB04E211E43E88B00AF9930 /* OProgressViewTests.swift */; };
@@ -38,7 +38,7 @@
 		EF1604B61E43A822005489A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF1604B81E43A822005489A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF1604C71E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+PointOnEllipse.swift"; sourceTree = "<group>"; };
-		EF1604C81E43DBCF005489A6 /* FloatingPoint+DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+DegreesToRadians.swift"; sourceTree = "<group>"; };
+		EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+DegreesToRadians.swift"; sourceTree = "<group>"; };
 		EF1604C91E43DBCF005489A6 /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
 		EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Percentage.swift"; sourceTree = "<group>"; };
 		EFB04E1F1E43E88B00AF9930 /* OProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EF1604C71E43DBCF005489A6 /* CGPoint+PointOnEllipse.swift */,
-				EF1604C81E43DBCF005489A6 /* FloatingPoint+DegreesToRadians.swift */,
+				EF1604C81E43DBCF005489A6 /* Int+DegreesToRadians.swift */,
 				EF1604C91E43DBCF005489A6 /* OProgressView.swift */,
 				EF1604CA1E43DBCF005489A6 /* UIBezierPath+Percentage.swift */,
 			);
@@ -222,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1604CC1E43DBCF005489A6 /* FloatingPoint+DegreesToRadians.swift in Sources */,
+				EF1604CC1E43DBCF005489A6 /* Int+DegreesToRadians.swift in Sources */,
 				EF1604CE1E43DBCF005489A6 /* UIBezierPath+Percentage.swift in Sources */,
 				EF1604AF1E43A822005489A6 /* ViewController.swift in Sources */,
 				EF1604AD1E43A822005489A6 /* AppDelegate.swift in Sources */,

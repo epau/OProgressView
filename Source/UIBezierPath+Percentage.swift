@@ -10,27 +10,36 @@ import UIKit
 
 extension UIBezierPath {
   convenience init(ovalSegmentInRect rect: CGRect, percentage: CGFloat) {
-    self.init()
-
-    let center = CGPoint(x: rect.midX, y: rect.midY)
-    let xRadius = rect.width / 2
-    let yRadius = rect.height / 2
-
-    let startDegrees: CGFloat = 90 // 0 is the right most point on the oval, so set to 90 to start at the top.
-    let startAngle = startDegrees.degreesToRadians
-
-    let endDegrees = startDegrees - percentage * 360 // subtract to move clockwise
-
-    guard startDegrees - 1 > endDegrees else {
+    guard percentage > 0, percentage <= 1 else {
+      self.init()
       return
     }
 
-    let firstPoint = CGPoint(pointOnEllipseForAngle: startAngle, center: center, xRadius: xRadius, yRadius: yRadius)
+    // set to 90 to start at the top of the ellipse
+    let angleA = 90
+
+    // subtract to move clockwise
+    let angleB = angleA - Int(percentage * 360)
+
+    self.init(ovalSegmentInRect: rect, from: angleA, to: angleB)
+  }
+
+  convenience init(ovalSegmentInRect rect: CGRect, from angleA: Int, to angleB: Int) {
+    self.init()
+
+    let firstPoint = CGPoint.pointOnEllipse(in: rect, for: angleA)
     move(to: firstPoint)
 
-    for degree in stride(from: Int(startDegrees - 1), to: Int(endDegrees - 1), by: -1) {
-      let angle = CGFloat(degree).degreesToRadians
-      let point = CGPoint(pointOnEllipseForAngle: CGFloat(angle), center: center, xRadius: xRadius, yRadius: yRadius)
+    addArc(in: rect, from: angleA, to: angleB)
+  }
+
+  // Angle A and Angle B are in degrees
+  func addArc(in rect: CGRect, from angleA: Int, to angleB: Int) {
+    let i = angleA > angleB ? -1 : 1
+
+    for angle in stride(from: angleA, to: angleB, by: i) {
+      let angleInRadians = angle.degreesToRadians
+      let point = CGPoint.pointOnEllipse(in: rect, for: CGFloat(angleInRadians))
       addLine(to: point)
     }
   }

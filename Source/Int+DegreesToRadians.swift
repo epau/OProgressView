@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension FloatingPoint {
-  var degreesToRadians: Self {
-    return self * .pi / 180
+extension Int {
+  var degreesToRadians: Float {
+    return Float(self) * Float.pi / 180
   }
 }
