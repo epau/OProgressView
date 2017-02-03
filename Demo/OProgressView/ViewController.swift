@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let frame = CGRect(x: 40, y: 40, width: 280, height: 280)
+    let frame = CGRect(x: 40, y: 40, width: 280, height: 350)
     oProgressView = OProgressView(frame: frame)
     oProgressView.progressLabel.font = UIFont.systemFont(ofSize: 32)
     view.addSubview(oProgressView)

@@ -23,15 +23,26 @@ class OProgressViewTests: XCTestCase {
   }
 
   func testCGPointOnEllipse() {
-    let center = CGPoint(x: 229, y: 372)
-    let angle = CGFloat(81)
-    let xRadius = CGFloat(126)
-    let yRadius = CGFloat(217)
+    let rect = CGRect(x: 229, y: 372, width: 252, height: 434)
+    let angle = 81
 
-    let pointOnEllipse = CGPoint(pointOnEllipseForAngle: angle, center: center, xRadius: xRadius, yRadius: yRadius)
-    let expectedPoint = CGPoint(x: 326.8624337, y: 508.6856947)
+    let pointOnEllipse = CGPoint.pointOnEllipse(in: rect, for: angle)
+    let expectedPoint = CGPoint(x: 374.710, y: 374.671)
 
     let result = floor(expectedPoint.x * 1000) == floor(pointOnEllipse.x * 1000) && floor(expectedPoint.y * 1000) == floor(pointOnEllipse.y * 1000)
     XCTAssert(result, "Calculated point should equal expected value")
+  }
+
+  func testBezierPathOvalSegmentWithPercentage() {
+    let rect = CGRect(x: 229, y: 372, width: 252, height: 434)
+    let percentage = CGFloat(0.72)
+
+    let path = UIBezierPath(ovalSegmentInRect: rect, percentage: percentage)
+
+    let expectedPoint = CGPoint(x: 231.753, y: 634.116)
+    let lastPoint = path.currentPoint
+
+    let result = floor(expectedPoint.x * 1000) == floor(lastPoint.x * 1000) && floor(expectedPoint.y * 1000) == floor(lastPoint.y * 1000)
+    XCTAssert(result, "Last point should equal expected value")
   }
 }
