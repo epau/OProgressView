@@ -93,7 +93,7 @@ var centerBackgroundColor: UIColor?
 Made by [epau](https://github.com/epau) with ❤️
 
 ## Credits
-Influenced by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)
+Inspired by [iOS-CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)
 
 ## License
 
