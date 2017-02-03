@@ -3,7 +3,7 @@
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](https://github.com/epau/OProgressView)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/epau/OProgressView)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/epau/OProgressView)
 
 You use the OProgressView class to show an ellipse to depict the progress of a task over time.
 
