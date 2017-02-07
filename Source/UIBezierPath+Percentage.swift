@@ -37,7 +37,7 @@ extension UIBezierPath {
   func addArc(in rect: CGRect, from angleA: Int, to angleB: Int) {
     let i = angleA > angleB ? -1 : 1
 
-    for angle in stride(from: angleA, to: angleB, by: i) {
+    for angle in stride(from: angleA, to: angleB + i, by: i) {
       let angleInRadians = angle.degreesToRadians
       let point = CGPoint.pointOnEllipse(in: rect, for: CGFloat(angleInRadians))
       addLine(to: point)

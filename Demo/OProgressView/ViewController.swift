@@ -28,7 +28,7 @@ class ViewController: UIViewController {
   }
 
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.oProgressView.setProgress(0.80, animated: true)
+    self.oProgressView.setProgress(1.00, animated: true)
   }
 }
 
